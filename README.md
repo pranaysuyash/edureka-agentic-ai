@@ -141,6 +141,29 @@ Based on the mentor's recommendations:
 - Explore domain-specific fine-tuning
 - Continue evaluation and refinement of existing implementations
 
+## November 16 Session: Product Search Agent
+
+Today's session focuses on building an intelligent product search agent using an Amazon product dataset with the following columns:
+- **title**: Product title/name
+- **description**: Detailed product description
+- **price**: Product price
+- **number of ratings**: Count of customer ratings
+- **Additional columns**: Other relevant product attributes
+
+### Query Examples
+The agent will handle complex user queries such as:
+- **Feature + Price + Rating Constraints**: "Find earphones with noise cancellation under $50 with ratings between 4.0 and 5.0"
+- **Category + Demographic**: "Show earphones available for kids"
+- **Specific Attributes + Price Range**: "Find silk sarees with floral print under $100"
+- **Multi-attribute Search**: "Find wireless earbuds with long battery life, water resistance, and under $75"
+
+### Learning Objectives
+- Implement semantic search using embedding models
+- Build query parsing and constraint extraction
+- Create structured response formats
+- Integrate RAG for improved accuracy
+- Handle complex multi-constraint queries
+
 ## Resources
 
 - `agentic_ai_course_notes.md`: Complete course notes with concepts and mentor insights
